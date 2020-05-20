@@ -1,13 +1,17 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1558203397-4d3a390f473b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-color: black;
+}
+
+.teamCollage {
+    width: 100%;
+    background: url(IMG_4706.JPG);
     background-size: cover;
-    margin: 0px;
 }
 
 .headerBlock {
     width: 100%;
     background: url(https://images.unsplash.com/photo-1503766587563-7cf366650cd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-    background-size: 100%;
+    background-size: cover;
     padding-bottom: 20px;
     border-bottom: solid;
     border-width: 1px;
@@ -21,22 +25,28 @@ body {
 }
 
 .playerName {
-    padding-left: 20%;
+    padding-left: 10%;
     position: absolute;
     padding-top: 30px;
     font-weight: 700;
     font-family: serif;
     font-size: xx-large;
-    color: rgb(73, 163, 73);
+    color: rgb(21, 221, 21);
+}
+
+.baseballCard {
+    position: absolute;
+    padding-top: 25px;
+    padding-left: 62%;
 }
 
 .playerPosition {
-    padding-left: 20%;
+    padding-left: 10%;
     position: absolute;
     padding-top: 60px;
     font-size: large;
     font-weight: 300;
-    color: rgb(73, 163, 73);
+    color: rgb(25, 230, 25);
 }
 
 .searchBox {
@@ -53,12 +63,14 @@ body {
 }
 
 #first {
+    position: absolute;
     width: 100px;
     height: 100px;
     background: red;
     overflow: hidden;
 }
 #first #second{
+    position: absolute;
     position: relative;
     width: 50%;
     height: 50%;
@@ -77,4 +89,8 @@ body {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.playerInfo {
+    padding-top: 100%;
 }
