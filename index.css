@@ -1,35 +1,68 @@
 body {
-    background-color: #D4A76A;
+    background-image: url(https://images.unsplash.com/photo-1558203397-4d3a390f473b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
     margin: 0px;
 }
 
 .headerBlock {
     width: 100%;
     background: url(https://images.unsplash.com/photo-1503766587563-7cf366650cd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-    background-size: cover;
-    font-family: serif;
-    font-size: xx-large;
-    padding-bottom: 50px;
+    background-size: 100%;
+    padding-bottom: 20px;
     border-bottom: solid;
     border-width: 1px;
 }
 
-.playersName {
+#teamLogo {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.playerName {
+    padding-left: 20%;
+    position: absolute;
+    padding-top: 30px;
     font-weight: 700;
-    margin: auto;
-    padding-left: 300px;
-    padding-top: 10px;
+    font-family: serif;
+    font-size: xx-large;
+    color: rgb(73, 163, 73);
 }
 
-.inputBox {
-    padding-left: 700px;
+.playerPosition {
+    padding-left: 20%;
+    position: absolute;
+    padding-top: 60px;
+    font-size: large;
+    font-weight: 300;
+    color: rgb(73, 163, 73);
 }
 
-#searchIcon{
-  position: absolute;
-  margin-top: 15px;
-  margin-left: -150px;
-  width: 10px;
+.searchBox {
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 62%;
+}
+
+#searchIcon {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -17px;
+    width: 10px;
+}
+
+#first {
+    width: 100px;
+    height: 100px;
+    background: red;
+    overflow: hidden;
+}
+#first #second{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background: green;
 }
 
 .homeButton {
