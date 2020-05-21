@@ -1,4 +1,5 @@
 body {
+    position: relative;
     background-color: black;
 }
 
@@ -6,9 +7,8 @@ body {
     width: 100%;
     background: url(https://images.unsplash.com/photo-1503766587563-7cf366650cd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
-    padding-bottom: 20px;
-    border-bottom: solid;
-    border-width: 1px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 #teamLogo {
@@ -59,32 +59,12 @@ body {
     width: 10px;
 }
 
-.teamCollage {
+.topBar {
+    margin-top: 10px;
+    margin-left: 0px;
     width: 100%;
-    background: url(IMG_4706.JPG);
-    background-size: cover;
-}
-
-#first {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: red;
-    overflow: hidden;
-}
-#first #second{
-    position: absolute;
-    position: relative;
-    width: 50%;
-    height: 50%;
-    background: green;
-}
-
-.homeButton {
-    margin-left: 50px;
     background-color: #347534;
     color: rgb(24, 42, 3);
-    border-color: #054b05;
     border-width: 1px;
     font-size: large;
     font-weight: 600;
@@ -94,6 +74,39 @@ body {
     padding-bottom: 10px;
 }
 
+.teamCollage {
+    width: 100%;
+    position: absolute;
+    background: url(IMG_4706.JPG);
+    background-size: cover;
+}
+
+#first {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 100px;
+    height: 100px;
+    background: green;
+    overflow: hidden;
+    opacity: .5;
+}
+
+#first #second {
+    position: absolute;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background: green;
+}
+
 .playerInfo {
-    padding-top: 100%;
+    padding-top: 100%
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    width: 700px;
+    height: 10px;
+    border: solid;
+    border-width: 1px;
 }
